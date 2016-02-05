@@ -1,0 +1,276 @@
+body,html{
+
+
+	height:100%;
+		
+
+	
+}
+.float-right{
+	float:right;
+}
+.logo-wrapper{
+
+	margin-top:70px;
+	margin:0 auto;
+	width:140px;
+}
+
+#login-page-logo{
+
+
+	height: 60px;
+	width: 120px;
+	
+
+
+}
+
+#header-logo{
+
+	height: 40px;
+	margin-left:10px;
+	width: 80px;
+}
+
+
+
+#slim-footer{
+
+	
+	background-color:#DB902B;
+	color:white;
+	height:50px;
+	padding-top: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+#dashboard-main-container{
+	
+	height:94%;
+}
+
+
+
+/*Login page 
+============*/
+
+
+#login-error{
+	
+	display: none;
+	margin-top:20px;
+	margin:0 auto;
+	text-align: center;
+	width: 500px;
+
+}
+
+
+#login-wrapper{
+
+
+	background-color:#fff;
+	border-radius: 10px;
+	margin:0 auto;
+	min-height: 300px;
+	position: relative;
+	top:10px;
+	width: 500px;
+	
+}
+
+
+
+#login-form .form-control{
+
+	margin-bottom: 30px;
+}
+
+#login-form input{
+
+	height: 50px;
+	margin:0 auto;
+	width:70%;
+
+
+}
+
+#login-box{
+
+	padding-top:50px;
+	text-align: center;
+
+}
+
+#login-bttn{
+
+	width:25%;
+
+
+}
+
+#password-recovery-link{
+
+	float:right;
+	margin-bottom: 20px;
+	margin-right:10px;
+}
+
+
+#login-box p{
+
+	color:red;
+}
+
+/*Dashboard page 
+============*/
+#dashboard-header{
+	background-color: #fff;
+	position: absolute;
+	width: 100%;
+	z-index: 999;
+}
+
+.dashboard-content{
+
+	
+	height: 93%;
+	margin-top:60px;
+
+}
+.dashboard-side-menu-wrapper{
+
+	background-color:#222222;
+	float: left;
+	height: 100%;
+	margin-left:-13px;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+
+}
+
+
+#side-menu{
+	
+	padding-left: 0px;
+	
+}
+
+#side-menu li{
+
+	
+	border-bottom: 1px gray solid;
+	display: block;
+	height: 50px;
+	list-style-type: none;
+}
+
+#side-menu li a{
+	
+	color: #fff;
+	display: block;
+	height: inherit;
+	padding: 10px 10px;
+	text-decoration: none;
+	width: inherit;;
+}
+
+
+#side-menu li a:hover{
+
+	background-color: #3F3E3E;
+	color:#fff;
+
+}
+
+/* page specific styles*/
+
+/**** user-account ****/
+
+#dashboard-sub-menu-bar{
+
+
+	background-color: #4ECDC4;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14pt;
+	font-weight: 600;
+	height: 50px;
+	padding-right: 20px;
+	text-align: right;
+	width: 100%;
+
+}
+
+#dashboard-sub-menu-bar a {
+
+	color:#fff;
+	text-decoration: none;
+}
+
+#data-list{
+
+
+
+	list-style-type: none;
+	padding-left: 0;
+}
+#data-list li{
+	
+	background-color: #fff;
+	border-left: 5px solid #222222;
+	color:black;
+	display: block;
+	font-size: 13pt;
+	height: 50px;
+	margin-bottom: 5px;
+	padding-left:  5px;
+	padding:12px 10px 0px;
+}
+
+.user-account-form-wrapper{
+
+
+	margin:0 auto;
+	margin-top: 50px;
+	
+	text-align: center;
+
+}
+
+#user-account-form{
+
+	font-size: 13pt;
+	width: auto;}
+
+#user-account-form input{
+
+	height: 50px;
+
+}
+#user-account-form .form-group{
+
+	margin-bottom: 50px;
+}
+
+#control-menu-list{
+
+
+	list-style-type: none;
+
+}
+
+#control-menu-list li{
+
+	display: inline-block;
+	margin-right: 10px;
+	padding: 12px;
+}
+
+#dashboard-right-content-pane{
+
+	display: none;
+}

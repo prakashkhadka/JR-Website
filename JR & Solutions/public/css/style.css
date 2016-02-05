@@ -1,0 +1,918 @@
+/*
+
+
+NOTES :
+========================
+
+Brand Colors:
+	
+	white:#fff
+	light-gold: #DB902B
+	darg-gold:	#472A02
+	dar-blue:	#204555   
+	light-gray: #D3D3D3
+
+	
+Brand Fonts:
+
+	Deovla Black 
+
+
+
+
+Inspiration Resources:
+
+
+
+
+*/
+
+
+
+/* Styling master class
+=================== 
+*/
+
+html, body {
+	height: 100%;
+}
+
+
+
+/* positioning and display class*/
+.float-left{
+
+	float:left;
+}
+
+
+.float-right{
+	float:right;
+}
+
+
+.align-center{
+
+	text-align: center;
+
+}
+
+
+.aling-left{
+
+	text-align: left;
+	
+}
+
+
+.aling-right{
+
+	text-align: right;
+}
+
+
+.justify{
+
+	text-align: justify;
+}
+
+
+.hidden{
+
+	display: none;
+}
+
+
+.display{
+
+	display:block;
+}
+
+
+
+
+/* 
+Typography 
+=============
+*/
+
+
+/*Top navigation Menu */
+
+.navbar-default .navbar-nav  >li >a {
+
+	color: #472A02;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
+	font-weight:lighter;
+	height:40px;
+	letter-spacing: 2px;
+	padding-top: 10px;
+
+}
+
+
+
+/*Top right call us button group */
+
+#top-right-call-us button{
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11pt;
+	height: 40px;
+
+}
+
+
+#call-us{
+	background-color: #F0F0F0;
+	color:#472A02;
+	outline:none;
+}
+
+
+/*Global Page section header */
+h3{
+
+	color:#472A02;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+
+}
+
+
+/*Global Page sub  header */
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+
+}
+
+
+/*Global  content  font and size */
+.description{
+
+	font-family: 'Lora';
+	letter-spacing: .5px;
+	line-height: 170%;
+}
+
+
+/*Carousel section fonts */
+
+.carousel-caption1 h4{
+
+	font-family: 'Lora';
+	letter-spacing: 1px;
+	font-weight: lighter;
+
+
+}
+
+/*Footer section */
+
+.footer-split-box header h4{
+	font-family: 'Montserrat', sans-serif;
+	color:#333;
+	font-weight: 700;
+	padding:5px;
+	text-align: center;
+}
+
+
+/*Footer section */
+.footer-content-holder header h4{
+	color:#333;
+	font-weight: 700;
+	padding:5px;
+	text-align: center;
+}
+
+
+.footer-content-box{
+	font-family: 'Lora';
+	font-size: 11pt;
+	letter-spacing: .5px;
+	padding:0 50px;
+	text-align: justify;
+}
+
+
+#required{
+
+	color:red;
+	font-weight: bold;
+	font-weight: 13pt;
+}
+/* 
+General styling
+=============
+*/
+
+
+/* Logo */
+
+#header-logo{
+
+	height: 80px;
+	width: 160px;
+}
+
+
+#header-logo-sm{
+
+	height: 60px;
+	padding: 0;
+	width: 120px;
+}
+
+
+
+#top-right-call-us{
+
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+	height: 35px;
+
+}
+
+
+/* Navigation Bar */
+
+
+
+
+.navbar-fixed-top{
+
+
+	background-color: #fff;
+	height:110px;
+	z-index: 9;
+
+}
+
+
+.navbar-right{
+
+	float: right;
+	position: absolute;
+	right: 50px;
+	top: 70px;
+
+}
+
+
+
+#no-top-margin{
+
+	margin-top:0px;
+}
+
+
+#page-brand-image{
+	margin-top: 110px;
+}
+
+
+#page-brand-image img{
+
+	width:100%;
+	height: 210px;
+	
+}
+
+/*Footer */
+
+footer{
+
+	background-color:#DB902C;
+	overflow:auto;
+}
+
+
+.footer-content-holder{
+
+	padding-top: 30px;
+}
+
+
+#footer-address{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13pt;
+	padding:0;
+}
+
+#footer-address li i{
+	color:#DB902B;
+}
+
+#footer-address li {
+
+	font-weight: bold;
+	list-style-type: none;
+	padding:5px 0;
+}
+
+#copy-rights{
+
+	background-color: #472A02;
+	border-top: 3px gray solid;
+	color:white;
+	overflow: auto;
+	padding: 10px 10px;
+
+}
+
+
+
+/* Side social icon slider links */
+	
+#sidebar-slider-links{
+		
+	float: right;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	top:30%;
+	z-index: 8;
+	}
+	
+
+/*Carousel */
+
+#full-window-container {
+
+
+		height:100%;
+
+	}
+
+
+.carousel-learn-more-btn{
+
+	background-color: #DB902B;
+	border:none;
+
+}
+
+.carousel-learn-more-btn:hover{
+
+	background-color: #472A02;
+	border:none;
+
+}
+
+
+.carousel-container{
+
+	height: 100%;
+		
+	}
+
+
+#myCarousel{
+		
+	height: 88%;
+	margin-top:110px;
+		
+	}
+
+
+.carousel, .item, .active,.carousel-inner  {
+		
+		height: 100%;
+		
+	}
+
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	}
+
+
+.carousel-indicators{
+
+	margin-bottom: 0;
+	}
+
+
+.item .carousel-caption1{
+
+	background-color: rgba(0,0,0,0.9);
+	bottom: 0;
+	color:white;
+	height:170px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	}
+
+
+/*Page Specific CSS 
+====================*/
+
+	#services{
+		
+		background-color: white;
+		margin-top:30px;
+		
+
+	}
+	
+	.service-content-box{
+
+		background-color: #F0F0F0 ;
+		height:auto;
+		margin:10px;
+		padding: 10px;
+	
+	}
+
+	.service-icon img{
+
+		
+		width:150px;
+		height: 150px;
+		margin:0 auto;
+		margin-top:-10px;
+
+	}
+
+
+
+.description{
+
+		text-align: justify;
+		overflow: hidden;
+		padding: 15px;
+	}
+
+
+	/*Calculator section */
+
+.calculator-wrapper{
+
+
+		border: 1px gray solid;
+		height: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-right: 20px;
+	}
+
+
+#calculate-btn{
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0;
+	width: 25%;
+	margin-top: 15px;
+	margin-bottom: 8px;
+	height: 50px;
+	background-color: #DB902B;
+	margin-left: 10px;
+	}
+
+#calculate-btn:hover{
+
+
+	background-color:#472A02;
+	color:white;
+	}
+
+#display-result{
+
+		
+	width:100%;;
+	font-family: 'Montserrat', sans-serif;
+	color:#333;
+	font-weight: 700;
+	font-size: 13pt;
+	}
+.round-box-wrapper >ul >li{
+	display:inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.round-box{
+
+	height:150px;
+	width: 150px;
+	padding-top: 40px;
+	border-radius: 50%;
+	font-size: 11pt;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+#user-data{
+	
+
+	background-color: #204555 ;
+	color:#fff;
+	
+
+}
+
+
+#estimated-payment{
+	
+	border:2px #472A02 solid ;
+	background-color: #fff;
+	
+
+}
+.emphasis{
+
+	font-size: 17pt;
+	font-weight: bold;
+}
+
+
+
+.lenders-logo-holder{
+
+	padding:40px;
+}
+
+.lenders-logo-holder img{
+
+	width: 100px;
+	height: 70px;
+	margin-right: 10px;
+	}
+
+
+
+/*Contact Page */
+
+.page-content-container{
+
+	margin-top: 120px;
+	overflow:auto;
+	padding: 20px 70px;
+		
+	}
+	
+	
+#contact-page-form-wrapper input, #contact-page-form-wrapper .btn{
+
+	height: 50px;
+		
+	}
+	
+
+#contact-page-form-wrapper .form-group {
+
+	margin:	30px  0;
+	}
+
+	
+#googleMap{
+		
+	height: 300px;
+	width: inherit;
+	}
+
+
+
+#contact-form-submit{
+		
+	width: 100%
+	}
+
+
+#home-loan,#personal-loan,#insurance{
+
+	border-radius: 0;
+
+
+	}
+
+	
+.selected{
+	color:white;
+	background-color: #006dcc;
+	outline:none;
+	}
+
+
+.selected:active{
+
+	color:white;
+
+	}
+	
+
+#contact-form p{
+
+	color:red; /* for error message */
+
+	}
+
+
+
+/*Blog Page */
+
+
+
+.blog-list-wrapper{
+
+	float:right;
+	width: 90%;
+	margin-top: 20px;
+
+	}
+	
+	
+#blog-list ul{
+
+	padding-left: 0;
+
+
+
+	}
+
+	
+#blog-list ul li{
+
+	list-style-type: none;
+	display: block;
+	height: 50px;
+	width: 100%;
+	float:right;
+	border-bottom: 1px gray dotted;
+	color:;
+	}
+
+	
+#blog-list ul li a{
+		display: block;
+		width: 100%;
+		height: inherit;
+		text-decoration: none;
+		color:#472A02;
+		text-align: left;
+		font-weight: 700;
+		padding:15px 0;
+		
+	}
+	
+
+#blog-list ul li a:hover{
+
+	color:#DB902B; 
+		
+	}
+
+.sub-header img{
+
+	height: 45px;
+	width: 45px;
+	border-radius: 45px;
+	}
+
+.sub-header{
+
+	font-size: small;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	color:#545454;
+	}
+	
+
+#blog header div{
+	display: inline-block;
+	
+	}
+
+
+.social-share-icons{
+		float: right;
+		margin-right: 20px;
+	}
+
+	/* JUNK and TEMP/TEST Styling 
+	===============================
+	Remove this section  in production file ....*/
+
+	
+
+
+
+
+	/* Errors */
+
+
+	
+
+
+	
+	#exampleInputName2{
+
+
+	}
+	#interest,#principal,#week,#fortnight,#month{
+
+
+		outline:none;
+	}
+
+	.calculator_label{
+
+
+		margin-left: 50px;
+	}
+
+	#c_input{
+
+		border-radius: 0;
+		height: 40px;
+		width: 90%;
+	}
+	#c_input{
+		float: right;
+		margin-right: 10px;
+
+
+
+	}
+
+	.inner{
+
+
+
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#slider1{
+
+		margin-bottom: 0;
+	}
+	#calculation_type,#repayment{
+
+		float:right;
+		margin-right: 10px;
+	}
+
+	.btn-primary, .btn-secondary{
+
+
+		border-radius: 0;
+		height: 40px;
+	}
+
+
+	#result{
+
+
+		height: 30px;
+
+		padding-left:50px;
+		padding-right: 50px;
+
+
+	}
+	#r{
+
+
+
+		font-weight: 400;
+		font-size: 14pt;
+		letter-spacing: 1.5px;
+	}
+
+
+	#comments{
+
+		background-color:  #F0F0F0 ;;
+		border-radius: 10px;
+		padding:20px 50px 20px 50px;
+		margin-bottom: 50px;
+		margin-left: 40px;
+		margin-right: 30px;
+
+
+
+
+
+	}
+	blockquote{
+		padding-left: 40px;
+		padding-right: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: relative;
+
+
+
+	}
+
+	blockquote:before {
+		display: block;
+
+		position: absolute;
+		font-size: 6em;
+		line-height: 1;
+		top: -10px;
+		left:0;
+		content: "\201C";
+		color: #DB902B;
+	}
+	blockquote:after {
+		display: block;
+
+		position: absolute;
+		/* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+		float:right;
+		font-size:6em;
+		line-height: 1;
+		right:0;
+		bottom:-0.7em;
+		content: "\201D";
+		color:#DB902B;
+	}
+
+	#myModal{
+
+
+		top:50%;
+		border-radius: 0;
+		margin:0 auto;
+
+	}
+	#myModal .modal-header{
+
+		background-color: rgba(0,0,0,0.8);
+		color:white;
+		border-radius: 0;
+	}
+
+	.sign-up-modal-btn{
+		height:45px;
+		border-radius: 0;
+
+	}
+	#myModal .modal-body{
+
+		height: 100px;
+
+	}
+	.modal-content  {
+		-webkit-border-radius: 0px !important;
+		-moz-border-radius: 0px !important;
+		border-radius: 0px !important; 
+		width: 70%;
+	}
+
+	#blog-signup-form input{
+
+		height: 50px;
+		width:90%;
+		margin:0 auto;
+	}
+
+	#footer-form-submission-sucess{
+
+		display: none;
+
+	}
+	#calculator-form > .btn .btn-primary {
+
+		background-color:gray;
+	}
+
+@media only screen and (max-width: 768px) {
+   
+.navbar-fixed-top{
+
+
+	border:1px green solid;
+	height:90px;
+	z-index: 9;
+
+}
+#main-nav{
+background-color: white;
+overflow: auto;
+}
+.navbar-header{
+	height: 90px;
+}
+}
+
+.sr-only{
+	
+	background-color: red;
+}
